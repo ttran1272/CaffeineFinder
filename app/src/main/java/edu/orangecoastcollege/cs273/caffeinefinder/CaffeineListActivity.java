@@ -103,7 +103,7 @@ public class CaffeineListActivity extends AppCompatActivity implements OnMapRead
             detailsIntent.putExtra("ImageName", selectedGame.getImageName());
             */
             // NEW WAY:
-            detailsIntent.putExtra("SelectedGame", selectedLocation);
+            detailsIntent.putExtra("SelectedLocation", selectedLocation);
 
             startActivity(detailsIntent);
         }
